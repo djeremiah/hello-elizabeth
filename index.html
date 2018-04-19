@@ -1,12 +1,23 @@
 <head>
 <title>Hello Elizabeth</title>
+<style>
+.wolf {
+  height: 100%;
+  width: 100%;
+  background:url(wolf.jpg) 0 0 no-repeat;
+}
+.border {
+    height: 100%;
+    width: 100%;
+    border: 100px solid transparent;
+    border-image: url(border.png) 30 round;
+</style>
 </head>
 <body>
 <div id="header">
 <h1>Hello Elizabeth!</h1>
 </div>
 <div id="content">
-<p>I love you very much</p>
-<img src="wolf.jpg" width="100%"/>
+<div class="wolf"><div class="border"></div></div>
 </div>
 </body>
